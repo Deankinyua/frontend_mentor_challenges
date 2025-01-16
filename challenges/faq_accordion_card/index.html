@@ -40,39 +40,84 @@
           >Frontend Mentor challenge</a
         >
       </div>
-      <div class="text-white">
-        for
-        <a
-          class="hover:text-custom-blue"
-          href="https://github.com/optimumBA"
-          target="_blank"
-          >Optimum BH</a
-        >
-        Internship.
-      </div>
+
+      <div>for Optimum BH Internship</div>
+
+      <a
+        class="text-optimum-blue hover:text-optimum-darkblue hidden"
+        href="https://github.com/optimumBA"
+        target="_blank"
+      >
+        Optimum BH</a
+      >
 
       <div class="text-white">
         <a
           class="hover:text-custom-blue"
-          href="https://github.com/optimumBA/frontend_mentor_challenges/tree/faq_accordion_card/challenges/faq_accordion_card"
+          href="https://github.com/Deankinyua/frontend_mentor_challenges/tree/faq_accordion_card/challenges/faq_accordion_card"
           >Source code</a
         >
       </div>
 
       <div
-        class="reset-color main-container ml-3 max-w-sm border border-red-500"
+        class="reset-color main-container ml-3 max-w-md border border-red-500 px-5 py-10"
       >
         <div class="main-container">
-          How many team members can I invite? You can invite up to 2 additional
-          users on the Free plan. There is no limit on team members for the
-          Premium plan. What is the maximum file upload size? No more than 2GB.
-          All files in your account must fit your allotted storage space. How do
-          I reset my password? Click “Forgot password” from the login page or
-          “Change password” from your profile page. A reset link will be emailed
-          to you. Can I cancel my subscription? Yes! Send us a message and we’ll
-          process your request no questions asked. Do you provide additional
-          support? Chat and email support is available 24/7. Phone lines are
-          open during normal business hours.
+          <div class="flex flex-col items-start border border-blue-500">
+            <section class="toggler">
+              <label for="checkbox-1"
+                >How many team members can I invite?</label
+              >
+              <input type="checkbox" class="hidden" id="checkbox-1" />
+              <p class="content hidden">
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+              <div class="my-4 border-t border-gray-300"></div>
+            </section>
+
+            <section class="toggler">
+              <label for="checkbox-2"
+                >What is the maximum file upload size?</label
+              >
+              <input type="checkbox" class="hidden" id="checkbox-2" />
+              <p class="content hidden">
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+              <div class="my-4 border-t border-gray-300"></div>
+            </section>
+
+            <section class="toggler">
+              <label for="checkbox-3"> How do I reset my password?</label>
+              <input type="checkbox" class="hidden" id="checkbox-3" />
+              <p class="content hidden">
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+              <div class="my-4 border-t border-gray-300"></div>
+            </section>
+
+            <section class="toggler">
+              <label for="checkbox-4">Can I cancel my subscription?</label>
+              <input type="checkbox" class="hidden" id="checkbox-4" />
+              <p class="content hidden">
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+              <div class="my-4 border-t border-gray-300"></div>
+            </section>
+
+            <section class="toggler">
+              <input type="checkbox" class="hidden" id="checkbox-5" />
+              <label for="checkbox-5">Do you provide additional support?</label>
+              <p class="content hidden">
+                Chat and email support is available 24/7. Phone lines are open
+                during normal business hours.
+              </p>
+              <div class="my-4 border-t border-gray-300"></div>
+            </section>
+          </div>
         </div>
       </div>
     </div>

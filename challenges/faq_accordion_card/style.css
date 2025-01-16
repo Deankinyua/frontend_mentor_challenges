@@ -29,5 +29,13 @@
   display: block;
 }
 
+label:active {
+  cursor: pointer;
+}
+
+label:active > div {
+  color: hsl(14, 88%, 65%);
+}
+
 /* background: [background-image] [background-position] / [background-size] [background-repeat]
  [background-attachment] [background-origin] [background-clip] [background-color]; */

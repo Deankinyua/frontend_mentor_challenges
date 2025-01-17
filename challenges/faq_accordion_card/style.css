@@ -25,10 +25,11 @@
   background: white;
 }
 
-.toggler input:checked ~ .content {
+.segment input:checked ~ .content {
   display: block;
 }
-.toggler input:checked + .question {
+
+.segment input:checked + .question {
   font-weight: 800;
 }
 
@@ -38,6 +39,10 @@ label:active {
 
 label:active div {
   color: hsl(14, 88%, 65%);
+}
+
+.width-23 {
+  width: 23rem;
 }
 
 /* background: [background-image] [background-position] / [background-size] [background-repeat]

@@ -63,7 +63,7 @@ label:active div {
 
 .woman-image-desktop {
   position: absolute;
-  top: 0px;
+  top: 50px;
   left: -90px;
   z-index: 10;
 }

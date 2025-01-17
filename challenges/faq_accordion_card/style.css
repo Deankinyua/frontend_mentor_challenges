@@ -4,7 +4,7 @@
 
 @media (max-width: 640px) {
   .main-container {
-    background: url(./images/bg-pattern-mobile.svg) top center / 10rem no-repeat;
+    background: url(./images/bg-pattern-mobile.svg) top center / 20rem no-repeat;
     z-index: 1000;
   }
 }
@@ -41,8 +41,16 @@ label:active div {
   color: hsl(14, 88%, 65%);
 }
 
-.width-23 {
-  width: 23rem;
+.width-16 {
+  width: 16.8rem;
+}
+
+.width-19 {
+  width: 19rem;
+}
+
+.mobile-width {
+  max-width: 350px;
 }
 
 /* background: [background-image] [background-position] / [background-size] [background-repeat]

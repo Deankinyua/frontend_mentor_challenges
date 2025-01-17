@@ -60,7 +60,7 @@
       </div>
 
       <div
-        class="reset-color mobile-width relative mt-40 mb-5 ml-3 rounded-3xl py-20 pl-5"
+        class="reset-color mobile-width center-element relative mt-40 mb-5 ml-3 rounded-3xl py-10 pl-5 md:my-10 md:w-4/5"
       >
         <div class="woman-image w-72 md:hidden">
           <img
@@ -76,121 +76,121 @@
             alt="The background inside the container on mobile"
           />
         </div>
-        <div>
-          <div class="mt-8 py-8 text-4xl font-extrabold">FAQ</div>
-
-          <div class="flex flex-col items-start">
-            <section class="segment">
-              <label
-                for="checkbox-1"
-                class="width-19 flex flex-col gap-2 text-sm"
-              >
-                <input type="checkbox" class="hidden" id="checkbox-1" />
-                <section class="question flex items-center justify-between">
-                  <div>How many team members can I invite?</div>
-                  <div class="arrow">
-                    <img src="./images/icon-arrow-down.svg" alt="" />
-                  </div>
-                </section>
-
-                <p class="content width-16 hidden text-left">
-                  You can invite up to 2 additional users on the Free plan.
-                  There is no limit on team members for the Premium plan.
-                </p>
-              </label>
-
-              <div class="my-4 border-t border-gray-300"></div>
-            </section>
-
-            <section class="segment">
-              <label
-                for="checkbox-2"
-                class="width-19 flex flex-col gap-2 text-sm"
-              >
-                <input type="checkbox" class="hidden" id="checkbox-2" />
-                <section class="question flex items-center justify-between">
-                  <div>What is the maximum file upload size?</div>
-                  <div class="arrow">
-                    <img src="./images/icon-arrow-down.svg" alt="" />
-                  </div>
-                </section>
-
-                <p class="content width-16 hidden text-left">
-                  No more than 2GB. All files in your account must fit your
-                  allotted storage space.
-                </p>
-              </label>
-
-              <div class="my-4 border-t border-gray-300"></div>
-            </section>
-
-            <section class="segment">
-              <label
-                for="checkbox-3"
-                class="width-19 flex flex-col gap-2 text-sm"
-              >
-                <input type="checkbox" class="hidden" id="checkbox-3" />
-                <section class="question flex items-center justify-between">
-                  <div>How do I reset my password?</div>
-                  <div class="arrow">
-                    <img src="./images/icon-arrow-down.svg" alt="" />
-                  </div>
-                </section>
-
-                <p class="content width-16 hidden text-left">
-                  Click “Forgot password” from the login page or “Change
-                  password” from your profile page. A reset link will be emailed
-                  to you.
-                </p>
-              </label>
-
-              <div class="my-4 border-t border-gray-300"></div>
-            </section>
-
-            <section class="segment">
-              <label
-                for="checkbox-4"
-                class="width-19 flex flex-col gap-2 text-sm"
-              >
-                <input type="checkbox" class="hidden" id="checkbox-4" />
-                <section class="question flex items-center justify-between">
-                  <div>Can I cancel my subscription?</div>
-                  <div class="arrow">
-                    <img src="./images/icon-arrow-down.svg" alt="" />
-                  </div>
-                </section>
-
-                <p class="content width-16 hidden text-left">
-                  Yes! Send us a message and we’ll process your request no
-                  questions asked.
-                </p>
-              </label>
-
-              <div class="my-4 border-t border-gray-300"></div>
-            </section>
-
-            <section class="segment">
-              <label
-                for="checkbox-5"
-                class="width-19 flex flex-col gap-2 text-sm"
-              >
-                <input type="checkbox" class="hidden" id="checkbox-5" />
-                <section class="question flex items-center justify-between">
-                  <div>Do you provide additional support?</div>
-                  <div class="arrow">
-                    <img src="./images/icon-arrow-down.svg" alt="" />
-                  </div>
-                </section>
-
-                <p class="content width-16 hidden text-left">
-                  Chat and email support is available 24/7. Phone lines are open
-                  during normal business hours.
-                </p>
-              </label>
-
-              <div class="my-4 border-t border-gray-300"></div>
-            </section>
+        <div
+          class="flex flex-col gap-20 md:relative md:flex-row md:items-center"
+        >
+          <div class="woman-image-desktop hidden w-1/2 md:block">
+            <img
+              src="images/illustration-woman-online-mobile.svg"
+              alt="A Woman"
+            />
           </div>
+
+          <section class="hidden md:block">
+            <img src="images/bg-pattern-desktop.svg" alt="" />
+          </section>
+
+          <section class="flex shrink-0 flex-col md:w-1/2 md:items-start">
+            <div class="mt-8 py-8 text-4xl font-extrabold">FAQ</div>
+            <div class="flex flex-col items-start">
+              <section class="segment">
+                <label
+                  for="checkbox-1"
+                  class="width-19 flex flex-col gap-2 text-sm"
+                >
+                  <input type="checkbox" class="hidden" id="checkbox-1" />
+                  <section class="question flex items-center justify-between">
+                    <div>How many team members can I invite?</div>
+                    <div class="arrow">
+                      <img src="./images/icon-arrow-down.svg" alt="" />
+                    </div>
+                  </section>
+                  <p class="content width-16 hidden text-left">
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </p>
+                </label>
+                <div class="my-4 border-t border-gray-300"></div>
+              </section>
+              <section class="segment">
+                <label
+                  for="checkbox-2"
+                  class="width-19 flex flex-col gap-2 text-sm"
+                >
+                  <input type="checkbox" class="hidden" id="checkbox-2" />
+                  <section class="question flex items-center justify-between">
+                    <div>What is the maximum file upload size?</div>
+                    <div class="arrow">
+                      <img src="./images/icon-arrow-down.svg" alt="" />
+                    </div>
+                  </section>
+                  <p class="content width-16 hidden text-left">
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </p>
+                </label>
+                <div class="my-4 border-t border-gray-300"></div>
+              </section>
+              <section class="segment">
+                <label
+                  for="checkbox-3"
+                  class="width-19 flex flex-col gap-2 text-sm"
+                >
+                  <input type="checkbox" class="hidden" id="checkbox-3" />
+                  <section class="question flex items-center justify-between">
+                    <div>How do I reset my password?</div>
+                    <div class="arrow">
+                      <img src="./images/icon-arrow-down.svg" alt="" />
+                    </div>
+                  </section>
+                  <p class="content width-16 hidden text-left">
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </p>
+                </label>
+                <div class="my-4 border-t border-gray-300"></div>
+              </section>
+              <section class="segment">
+                <label
+                  for="checkbox-4"
+                  class="width-19 flex flex-col gap-2 text-sm"
+                >
+                  <input type="checkbox" class="hidden" id="checkbox-4" />
+                  <section class="question flex items-center justify-between">
+                    <div>Can I cancel my subscription?</div>
+                    <div class="arrow">
+                      <img src="./images/icon-arrow-down.svg" alt="" />
+                    </div>
+                  </section>
+                  <p class="content width-16 hidden text-left">
+                    Yes! Send us a message and we’ll process your request no
+                    questions asked.
+                  </p>
+                </label>
+                <div class="my-4 border-t border-gray-300"></div>
+              </section>
+              <section class="segment">
+                <label
+                  for="checkbox-5"
+                  class="width-19 flex flex-col gap-2 text-sm"
+                >
+                  <input type="checkbox" class="hidden" id="checkbox-5" />
+                  <section class="question flex items-center justify-between">
+                    <div>Do you provide additional support?</div>
+                    <div class="arrow">
+                      <img src="./images/icon-arrow-down.svg" alt="" />
+                    </div>
+                  </section>
+                  <p class="content width-16 hidden text-left">
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </p>
+                </label>
+                <div class="my-4 border-t border-gray-300"></div>
+              </section>
+            </div>
+          </section>
         </div>
       </div>
     </div>

@@ -2,20 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @media (max-width: 640px) {
-  .main-container {
-    background: url(./images/bg-pattern-mobile.svg) 50% -10% / 18rem no-repeat;
-  }
+.mobile-width {
+  width: 350px;
 }
 
-@media (min-width: 641px) {
-  .main-container {
-    /* background: url(./images/bg-pattern-desktop.svg) top left/ 30rem no-repeat; */
-/* background: url(./images/bg-pattern-mobile.svg) 50% -10% / 18rem no-repeat; */
-/* }
-} */
-
 .mobile-image-background {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.desktop-image-background {
   position: absolute;
   top: -10px;
   left: 30px;
@@ -29,7 +26,7 @@
 
 .linear-grad {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  z-index: 1;
+  z-index: 30;
 }
 
 .reset-color {
@@ -64,8 +61,17 @@ label:active div {
   width: 19rem;
 }
 
-.mobile-width {
-  max-width: 350px;
+.woman-image-desktop {
+  position: absolute;
+  top: 0px;
+  left: -90px;
+  z-index: 10;
+}
+
+@media (min-width: 641px) {
+  .center-element {
+    margin: 0 auto;
+  }
 }
 
 /* background: [background-image] [background-position] / [background-size] [background-repeat]

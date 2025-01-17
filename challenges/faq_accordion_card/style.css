@@ -2,19 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 640px) {
+/* @media (max-width: 640px) {
   .main-container {
-    background: url(./images/bg-pattern-mobile.svg) top center / 20rem no-repeat;
-    z-index: 1000;
+    background: url(./images/bg-pattern-mobile.svg) 50% -10% / 18rem no-repeat;
   }
 }
 
 @media (min-width: 641px) {
   .main-container {
-    background: url(./images/bg-pattern-desktop.svg) top left/ 30rem no-repeat;
-    z-index: 1000;
-  }
-}
+    /* background: url(./images/bg-pattern-desktop.svg) top left/ 30rem no-repeat; */
+/* background: url(./images/bg-pattern-mobile.svg) 50% -10% / 18rem no-repeat; */
+/* }
+} */
 
 .linear-grad {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));

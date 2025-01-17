@@ -16,8 +16,14 @@
 } */
 
 .mobile-image-background {
-  position: relative;
-  top: 0px;
+  position: absolute;
+  top: -10px;
+  left: 30px;
+}
+
+.woman-image {
+  position: absolute;
+  top: -130px;
   left: 30px;
 }
 

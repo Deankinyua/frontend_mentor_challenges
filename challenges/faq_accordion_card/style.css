@@ -61,9 +61,13 @@ label:active div {
   width: 19rem;
 }
 
+.custom-height {
+  height: 80vh;
+}
+
 .woman-image-desktop {
   position: absolute;
-  top: 50px;
+  top: 20px;
   left: -90px;
   z-index: 10;
 }

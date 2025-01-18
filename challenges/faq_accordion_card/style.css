@@ -78,5 +78,12 @@ label:active div {
   }
 }
 
+@media (min-width: 768px) {
+  .woman-image,
+  .mobile-image-background {
+    left: 200px;
+  }
+}
+
 /* background: [background-image] [background-position] / [background-size] [background-repeat]
  [background-attachment] [background-origin] [background-clip] [background-color]; */

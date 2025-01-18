@@ -18,12 +18,6 @@
   left: 30px;
 }
 
-.woman-image {
-  position: absolute;
-  top: -130px;
-  left: 30px;
-}
-
 .linear-grad {
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   z-index: 30;
@@ -61,15 +55,31 @@ label:active div {
   width: 19rem;
 }
 
-.custom-height {
-  height: 80vh;
+.woman-image {
+  position: absolute;
+  top: -130px;
+  left: 30px;
 }
 
 .woman-image-desktop {
   position: absolute;
-  top: 20px;
-  left: -90px;
+  top: 10px;
+  left: -60px;
   z-index: 10;
+}
+
+@media (min-width: 1200px) {
+  .woman-image-desktop {
+    top: 30px;
+    left: -70px;
+  }
+}
+
+@media (min-width: 1290px) {
+  .woman-image-desktop {
+    top: 50px;
+    left: -100px;
+  }
 }
 
 @media (min-width: 641px) {
@@ -84,6 +94,3 @@ label:active div {
     left: 200px;
   }
 }
-
-/* background: [background-image] [background-position] / [background-size] [background-repeat]
- [background-attachment] [background-origin] [background-clip] [background-color]; */

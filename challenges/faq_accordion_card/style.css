@@ -3,19 +3,19 @@
 @tailwind utilities;
 
 .mobile-width {
-  width: 350px;
+  width: 21.875rem;
 }
 
 .mobile-image-background {
   position: absolute;
-  top: -10px;
-  left: 30px;
+  top: -0.625rem;
+  left: 1.875rem;
 }
 
 .desktop-image-background {
   position: absolute;
-  top: -10px;
-  left: 30px;
+  top: -0.625rem;
+  left: 1.875rem;
 }
 
 .linear-grad {
@@ -57,28 +57,28 @@ label:active div {
 
 .woman-image {
   position: absolute;
-  top: -130px;
-  left: 30px;
+  top: -8.125rem;
+  left: 1.875rem;
 }
 
 .woman-image-desktop {
   position: absolute;
-  top: 10px;
-  left: -60px;
+  top: 0.625rem;
+  left: -3.75rem;
   z-index: 10;
 }
 
 @media (min-width: 1200px) {
   .woman-image-desktop {
-    top: 30px;
-    left: -70px;
+    top: 1.875rem;
+    left: -4.375rem;
   }
 }
 
 @media (min-width: 1290px) {
   .woman-image-desktop {
-    top: 50px;
-    left: -96px;
+    top: 3.125rem;
+    left: -6rem;
   }
 }
 
@@ -91,6 +91,6 @@ label:active div {
 @media (min-width: 768px) {
   .woman-image,
   .mobile-image-background {
-    left: 200px;
+    left: 12.5rem;
   }
 }
